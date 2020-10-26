@@ -33,3 +33,10 @@ We recommend you heading over to [http://gobuffalo.io](http://gobuffalo.io) and 
 Good luck!
 
 [Powered by Buffalo](http://gobuffalo.io)
+
+
+
+docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+
+## to be con
+* https://adminlte.io/themes/AdminLTE/index2.html

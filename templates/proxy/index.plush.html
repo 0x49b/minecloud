@@ -1,0 +1,55 @@
+<!-- PLAYERS -->
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0">ProxyServer</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="<%= dashboardPath() %>">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<%= serverIndexPath() %>">Server</a></li>
+                            <li class="breadcrumb-item active">Proxyserver</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <div class="container-fluid">
+
+           <div class="row ml-2 mr-2">
+               <div class="col">
+                   <ul class="nav nav-tabs" id="myTab" role="tablist">
+                       <li class="nav-item" role="presentation">
+                           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                       </li>
+                   </ul>
+                   <div class="tab-content" id="myTabContent">
+                       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home</div>
+                       <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Profile</div>
+                       <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Contact</div>
+                   </div>
+               </div>
+
+           </div>
+
+        </div>
+
+
+
+</div>
+
+<script>
+    $('#myTab').tab('show')
+</script>
